@@ -33,7 +33,6 @@ button {
 .atlas-cta-wide {
     width: 100%;
 }
-
 .cta-green {
     background: #00FFAD;
     color: #192440;
@@ -42,6 +41,16 @@ button {
 .cta-green:hover {
     color: #ffffff;
     background: #00e69c;
+}
+
+.cta-gold {
+    background: #FFD700;
+    color: #192440;
+}
+
+.cta-gold:hover {
+    color: #ffffff;
+    background: #D4AF37;
 }
 
 .cta-blue {
@@ -84,11 +93,17 @@ button {
 }
 
 #feature-first {
-    background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0);
+    background: linear-gradient(168deg, #ffffff 55%, rgba(212, 175, 55, 0.5) 0);
 }
 
 #feature-last {
-    background: #00FFAD;
+    background: rgba(212, 175, 55, 0.5);
+}
+
+/********** price table **********/
+#demo-video {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
 }
 
 /********** price table **********/
